@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 /* Header style */
 
@@ -70,10 +70,12 @@
   opacity: 0.9 !important;
 }
 .logo {
-  background-image: url(../Assets/logor.png);
-  background-size: cover;
-  width: 90px;
-  height: 80px;
+  background-image: url(../Assets/delwer3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  width: 80px;
+  height: 100px;
 }
 
 .nav-link {
@@ -83,7 +85,7 @@
   font-weight: 500 !important;
   padding-right: 2rem !important;
   padding-left: 1rem !important;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .nav-link:hover {
@@ -310,16 +312,16 @@
 }
 .aboutdetails {
   font-size: 1.1em !important;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 .skilllist li {
   letter-spacing: 1px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 .skilllist {
   font-weight: 600;
   list-style-type: none;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 .skilllist li:hover {
   transform: scale(1.05);
@@ -368,8 +370,8 @@
   padding-right: 25px !important;
   height: auto !important;
 }
-.card-text{
-  font-family: 'Poppins';
+.card-text {
+  font-family: "Poppins";
 }
 .project-card-view {
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
@@ -400,7 +402,7 @@
   justify-content: center;
   font-size: 18px;
   letter-spacing: 1px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .btn-primary {
@@ -418,7 +420,6 @@
   outline: none !important;
   box-shadow: none !important;
 }
-
 
 @media (max-width: 767px) {
   .project-section {
@@ -453,7 +454,7 @@
   font-size: 16px;
   letter-spacing: 1px;
   padding-bottom: 1rem;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 .contactbtn {
   display: block;
@@ -474,7 +475,7 @@
   right: 0;
   text-align: center;
   font-size: 12px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 .copyright span {
   font-weight: 700;
