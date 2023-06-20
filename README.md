@@ -1,42 +1,86 @@
-# Personal Portfolio
 
-This is a personal portfolio website built with React.js and Bootstrap, utilizing React Router v6 to enable easy access to multiple pages. The website was designed and created entirely by MD. Delwer Hossain, showcasing his skills and projects.
+## Built With
 
-![Delwer-Portfolio](https://i.ibb.co/j4Wj8gq/Screenshot-30.png)
+- React.js
+- Three.js
+- Framer Motion
+- TailwindCSS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Demo
 
-## Features
+- Click [here](https://delwer.netlify.app/) to view the live demo.
 
-Multiple Pages (React Router): The website has multiple pages to showcase various aspects of Delwer's skills and projects.
+## Getting Started
 
-Fully Responsive: The website is fully responsive and works well on all devices.
+To get started with this portfolio template, follow these simple steps:
 
-Modern Design: The website has a modern and visually appealing design.
+### Prerequisites
 
-## Available Scripts
+Make sure you have node `16.0.0` or higher and npm `9.0.0` or higher installed.
 
-In the project directory, you can run:
+### Setup
 
-### `npm start`
+- With git, clone the code to your machine, or download a ZIP of all the files directly.
+- [Download the ZIP file from this location](https://github.com/delwerhossain/delwerPortfolio/archive/refs/heads/main.zip) or run the following [git](https://git-scm.com/) command to clone the files to your machine:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+git clone https://github.com/delwerhossain/delwerPortfolio.git
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Once the files are on your machine, open the **delwerPortfolio** folder in [Visual Studio Code](https://code.visualstudio.com/download).
 
-### `npm test`
+```
+cd delwerPortfolio && code .
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Install
 
-### `npm run build`
+- After opening the files in Visual Studio Code, open the **VS Code** integrated terminal and run the following commands:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This will install all the packages and dependencies used in the project.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
+
+- Run the following command to start a local server:
+
+```
+npm run dev
+```
+
+This will open up the project on a browser on `http://localhost:5173/`
+
+## Build
+
+- To create a production build:
+
+```
+npm run build
+```
+
+- To preview the site as it will appear once deployed:
+
+```
+npm run preview
+```
+
+## Authors
+
+👤 **Delwer Hossain**
+
+- GitHub: [@delwer](https://github.com/delwerhossain)
+- Twitter: [@delwerhossain0](https://twitter.com/delwerhossain0)
+- LinkedIn: [delwer-hossain](https://www.linkedin.com/in/delwer-hossain/)
+
+## Feedback and Contributions
+
+If you have any feedback, suggestions, or would like to contribute to this project, your involvement is highly valued. Feel free to open an [issue](../../issues/) or submit a pull request with your ideas and enhancements. Remember, this template is a starting point, and the true magic lies in making it your own. Enjoy the journey of creating a stunning portfolio that represents your unique talents and accomplishments!
+
+Happy coding and showcasing!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
