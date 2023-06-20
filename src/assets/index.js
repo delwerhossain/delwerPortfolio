@@ -22,6 +22,7 @@ import resume from "./icons/resume.png";
 import send from "./icons/send.png";
 import sendHover from "./icons/sendHover.png";
 
+// technologies
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -37,18 +38,23 @@ import graphql from "./tech/graphql.png";
 import postgresql from "./tech/postgresql.png";
 import rubyrails from "./tech/rubyrails.png";
 
-import coverhunt from "./company/coverhunt.png";
-import dcc from "./company/dcc.png";
-import kelhel from "./company/kelhel.png";
-import microverse from "./company/microverse.png";
-
-
+import express from "./tech/express.png";
+import firebase from "./tech/firebase.png";
+import jwt from "./tech/jwt.png";
+import mongodb from "./tech/mongodb.png";
+import mysql from "./tech/mysql.png";
+import rest_api from "./tech/rest_api.png";
+import stripe from "./tech/stripe.png";
 
 // my projects
 import tract from "./projects/tract.png";
 import proc from "./projects/proc-toys.png";
 import creative from "./projects/creative.png";
 import job_portal from "./projects/job_portal.png";
+
+// company 
+import coverhunt from "./company/coverhunt.png";
+
 
 export {
   bwmap,
@@ -85,12 +91,16 @@ export {
   redux,
   tailwind,
   typescript,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  express,
+  firebase,
+  jwt,
+  mongodb,
+  mysql,
+  rest_api,
+  stripe,
   tract,
   proc,
   creative,
-  job_portal
+  job_portal,
+  coverhunt,
 };

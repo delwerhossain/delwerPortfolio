@@ -17,10 +17,14 @@ import {
   postgresql,
   rubyrails,
   graphql,
+  express,
+  firebase,
+  jwt,
+  mongodb,
+  mysql,
+  rest_api,
+  stripe,
   coverhunt,
-  dcc,
-  kelhel,
-  microverse,
   creative,
   tract,
   proc,
@@ -61,6 +65,21 @@ const services = [
   },
 ];
 
+
+//  https://axios-http.com/assets/logo.svg
+
+
+// Familiar:
+// Node JS I PHP I Laravel I python
+// I WordPress
+
+// Tools:
+// VS Code I GitHub I Chat GPT I Netlify I
+// Vercel I Chrome dev I pycharm I
+// WebStorm I npm I Yarn I postman I
+// Adobe Illustrator
+
+
 const technologies = [
   {
     name: "HTML 5",
@@ -74,10 +93,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
@@ -91,21 +110,58 @@ const technologies = [
     icon: tailwind,
   },
   {
+    name: "Express JS",
+    icon: express,
+  },
+
+  // express,
+  // firebase,
+  // jwt,
+  // mongodb,
+  // mysql,
+  // rest_api,
+  // stripe,
+
+  {
+    name: "Firebase",
+    icon: firebase,
+  },
+  {
+    name: "JWT",
+    icon: jwt,
+  },
+  {
+    name: "Mongodb",
+    icon: mongodb,
+  },
+  {
+    name: "Mysql",
+    icon: mysql,
+  },
+  {
+    name: "REST API",
+    icon: rest_api,
+  },
+  {
+    name: "Stripe",
+    icon: stripe,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "Rails",
-    icon: rubyrails,
-  },
-  {
-    name: "graphql",
-    icon: graphql,
-  },
-  {
-    name: "postgresql",
-    icon: postgresql,
-  },
+  // {
+  //   name: "Rails",
+  //   icon: rubyrails,
+  // },
+  // {
+  //   name: "graphql",
+  //   icon: graphql,
+  // },
+  // {
+  //   name: "postgresql",
+  //   icon: postgresql,
+  // },
   {
     name: "git",
     icon: git,
@@ -114,41 +170,41 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: "Front-End Developer",
-    company_name: "Cover Hunt",
+    title: "Full Stack Developer",
+    company_name: "B & F CORPORATE",
     icon: coverhunt,
     iconBg: "#333333",
-    date: "Aug 2021 - Feb 2022",
+    date: "Start - Aug 2021 ",
   },
-  {
-    title: "Mentor (Volunteer)",
-    company_name: "Microverse",
-    icon: microverse,
-    iconBg: "#333333",
-    date: "Mar 2022 - May 2022",
-  },
-  {
-    title: "Junior Software Engineer",
-    company_name: "Kelhel",
-    icon: kelhel,
-    iconBg: "#333333",
-    date: "May 2022 - Oct 2022",
-  },
-  {
-    title: "Full Stack Developer",
-    company_name: "Diversity Cyber Council",
-    icon: dcc,
-    iconBg: "#333333",
-    date: "Sep 2022 - Present",
-  },
+  // {
+  //   title: "Mentor (Volunteer)",
+  //   company_name: "Microverse",
+  //   icon: microverse,
+  //   iconBg: "#333333",
+  //   date: "Mar 2022 - May 2022",
+  // },
+  // {
+  //   title: "Junior Software Engineer",
+  //   company_name: "Kelhel",
+  //   icon: kelhel,
+  //   iconBg: "#333333",
+  //   date: "May 2022 - Oct 2022",
+  // },
+  // {
+  //   title: "Full Stack Developer",
+  //   company_name: "Diversity Cyber Council",
+  //   icon: dcc,
+  //   iconBg: "#333333",
+  //   date: "Sep 2022 - Present",
+  // },
 ];
 
 // Firebase | JWT| Axios | Express JS
@@ -212,7 +268,7 @@ const projects = [
     description: "AN ONLINE TOY SELLER WEBSITE - CURD . ",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
@@ -228,11 +284,11 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwindcss",
         color: "pink-text-gradient",
       },
     ],
