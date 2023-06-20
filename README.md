@@ -5,6 +5,8 @@
 - Three.js
 - Framer Motion
 - TailwindCSS
+- emailjs
+
 
 ## Live Demo
 
