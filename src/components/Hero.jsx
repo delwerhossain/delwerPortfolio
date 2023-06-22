@@ -48,8 +48,13 @@ const Hero = () => {
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Lorem ipsum dolor sit amet. <br className="sm:block hidden" />
-              consectetur adipisicing elit deleniti, voluptas.
+              Learn continnually. There's always{" "}
+              <br className="sm:block hidden" />
+              "one more thing" to learn.
+            </p>
+            <p className={`font-semibold text-xl mt-4 text-eerieBlack`}>
+              {" "}
+              Steve Jobs
             </p>
           </div>
           <div
